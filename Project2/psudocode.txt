@@ -1,0 +1,18 @@
+
+
+Start
+
+INITIALIZE numYear, initialInvestment, monthlyDeposit, interstRate, num
+DISPLAY menu to user
+While(num == 1) 
+	GET input from user
+	CREATE object with input
+	FOR EACH YEAR calculate the Closing Balance and Interest
+                  DISPLAY     “Year , Year End Balance, Year End Earned Interest”
+	UPDATE balances
+
+	FOR EACH YEAR calculate the Closing Balance with month deposted and interest 
+	DISPLAY “Year, Year End Balance, Year End Earned Interes” 
+	UPDATE Balances
+	DISPLAY “Enter 1 if again or anything else if not” 
+	GET NUM; 
